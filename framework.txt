@@ -1,0 +1,39 @@
+ open eclipse
+ create one folder
+
+
+
+cucumbear installation
+1 java and eclips set up (aleready)
+2 add cucumber plugin to the eclipse from the market place for this
+open eclips goto help and select eclipse market place search with cucumber
+then select 1 st option(1.0.0.202106240526 version)install it will take some time to install then it wii ask the licence and accept that 
+then it will ask for restart
+3 once we added then create project
+ a) select maven project from project option then next again next
+ b)select from the filter(search with org.apache.maven then we get the option) next
+   org.apache.maven.archtypes        maven-archtypes-quicktypes            1.4(version)
+ c)artifact id=automation,   groupid=cucumber then finish it
+ d)then right click on our project(automation)
+ e)go to configure convert to cucumber project and select it(observe the change i.s green mark)
+ f)open pom.xml-open the google seasch with cucumber-java maven dependency(select 2nd option(7.3.4 version) then copy that(there is io cucumber word is there)
+ g)open pom.xml where junit is defaulty added so then  afrt the junit past the copied one
+ h)again in google cucumber junit maven dependency then select first option( i.e 7.3.4 io)
+ i)in pom.xml after cucumber junit paste it
+ j)ctrl a the ctrl+shift+f
+ k)right click on project run as option then (maven clean and maven install)
+ HERE WE HAVE TO CREATE 3 PACKEGES WITHIN SRC/TEST/JAVA
+    1)CucumberOption(create one class i.s testRunner)
+    2)features(create one feature file i.e in others-search with file-gine file name with extention.feature(eg-Login.feature))
+    3)stepDefinitions(create one class i.e LoginStepDefinition)
+  l)in google search tidy gherkin plugin then get that app then add to chrome then it will downloaded
+  m)go to eclips in Login features except @tag @tag1 remove all the things(keep given,when,then only. then remove remaining)(copy)
+  n)paste in tidy then copy only 3 methodsthen paste in stepDefinition
+  o)again copy one line from java steps then past in test runner and stepdefinition before class name
+  p)in testRunner afret pasted line write @cucumberOptions(features = "src/test/java/feature", glue = "stemDefinition")
+  q)remove commen exceptions in three methods(stepDefinition)
+  r)then maven clean and maven install(then all things run in testrunner class as (run as junit)
+
+   
+ l)
+ 
