@@ -9,7 +9,7 @@ Feature: Title of your feature1
      Examples: 
       | username  | password |
       | Deepak |   Male |
-     | Hanmanth |    Male |
-     | Shivu |    Male |
-     | Akshata |    Female |
-     | Divya |    Female | 
+     #| Hanmanth |    Male |
+     #| Shivu |    Male |
+     #| Akshata |    Female |
+     #| Divya |    Female | 

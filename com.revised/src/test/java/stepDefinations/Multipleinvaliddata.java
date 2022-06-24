@@ -15,11 +15,12 @@ import objectpage.multipledataobject;
 import utilsclass.Setuptest;
 
 public class Multipleinvaliddata {
-	Setuptest testsetup;	
+	Setuptest testsetup;
 	Objectmanager pageObjectManager;
 	public WebDriver driver;
+
 	public Multipleinvaliddata(Setuptest testSetup) {
-		this.testsetup=testSetup;
+		this.testsetup = testSetup;
 	}
 
 	@Given("^User launched the login1 page$")
@@ -44,21 +45,21 @@ public class Multipleinvaliddata {
 		 * System.out.println("Username is " + username + " and " + "Password is " +
 		 * password);
 		 */
-		Loginobject loginpage1=testsetup.pageObjectManager.getLoginPage();
+		Loginobject loginpage1 = testsetup.pageObjectManager.getLoginPage();
 		loginpage1.enterusername(username);
 		loginpage1.enterpassword(password);
 		loginpage1.enterlogin();
-					
+
 	}
 
 	@Then("^Home page1 is not displayed$")
 	public void home_page1_is_not_displayed() throws Throwable {
-		
+
 		Thread.sleep(5000);
-		multipledataobject loginpage1=testsetup.pageObjectManager.errormessagedisplay();
-    	boolean logout1=loginpage1.errormessagedisplay();
-		Assert.assertTrue(logout1, "User is not logged to the application");
-		
+		multipledataobject loginpage1 = testsetup.pageObjectManager.errormessagedisplay();
+		boolean logout22 = loginpage1.errormessagedisplay();
+		Assert.assertTrue(logout22, "User is not logged to the application");
+
 	}
 
 }
