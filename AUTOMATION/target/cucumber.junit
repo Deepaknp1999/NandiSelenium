@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="12" time="10.605">
+    <testcase classname="Title of your feature" name="Title of your scenario" time="6.265">
+        <system-out><![CDATA[Given I want to write a step with precondition..............................passed
+When I complete action......................................................passed
+Then I validate the outcomes................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Title of your feature" name="Title of your scenario outline" time="0.006">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I want to write a step with name1.....................................undefined
+When I check for the 5 in step..............................................skipped
+Then I verify the success in step...........................................skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Title of your feature" name="Title of your scenario outline 2" time="0">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I want to write a step with name2.....................................undefined
+When I check for the 7 in step..............................................skipped
+Then I verify the Fail in step..............................................skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Title of your feature" name="Title of your scenario" time="0.003">
+        <system-out><![CDATA[Given Validate the browser..................................................passed
+When Browser is opened......................................................passed
+Then Check the browser is started...........................................passed
+Given I want to write a step with precondition..............................passed
+When I complete action......................................................passed
+Then I validate the outcomes................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Title of your feature" name="User is not able to login with the invalid credentials" time="0.002">
+        <system-out><![CDATA[Given Validate the browser..................................................passed
+When Browser is opened......................................................passed
+Then Check the browser is started...........................................passed
+Given User launched the login page..........................................passed
+When User logged into tghe application with username"deepak" and password"dp28".passed
+Then Home page is not displayed.............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Title of your feature" name="User is not able to login with the invalid credentials 2" time="0.001">
+        <system-out><![CDATA[Given Validate the browser..................................................passed
+When Browser is opened......................................................passed
+Then Check the browser is started...........................................passed
+Given User launched the login page..........................................passed
+When User logged into tghe application with username"deepaknp" and password"M416".passed
+Then Home page is not displayed.............................................passed
+And Home page component displayed...........................................passed
+And Home page components are displayed......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Title of your feature" name="User is  not able login with the invalid credentials" time="0.004">
+        <system-out><![CDATA[Given Validate the browser..................................................passed
+When Browser is opened......................................................passed
+Then Check the browser is started...........................................passed
+Given User launched the login page..........................................passed
+When User logged into the application with different credentials............passed
+Then Home page is not displayed.............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Title of your feature" name="User is  not able login with the invalid credentials 2" time="0.001">
+        <system-out><![CDATA[Given Validate the browser..................................................passed
+When Browser is opened......................................................passed
+Then Check the browser is started...........................................passed
+Given User launched the login page..........................................passed
+When User logged into the application with username Deepak and password Male.passed
+Then Home page is not displayed.............................................passed
+And Home page is displayed "false"..........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Title of your feature" name="User is  not able login with the invalid credentials 3" time="0.001">
+        <system-out><![CDATA[Given Validate the browser..................................................passed
+When Browser is opened......................................................passed
+Then Check the browser is started...........................................passed
+Given User launched the login page..........................................passed
+When User logged into the application with username Hanmanth and password Male.passed
+Then Home page is not displayed.............................................passed
+And Home page is displayed "false"..........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Title of your feature" name="User is  not able login with the invalid credentials 4" time="0.002">
+        <system-out><![CDATA[Given Validate the browser..................................................passed
+When Browser is opened......................................................passed
+Then Check the browser is started...........................................passed
+Given User launched the login page..........................................passed
+When User logged into the application with username Shivu and password Male.passed
+Then Home page is not displayed.............................................passed
+And Home page is displayed "false"..........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Title of your feature" name="User is  not able login with the invalid credentials 5" time="0.001">
+        <system-out><![CDATA[Given Validate the browser..................................................passed
+When Browser is opened......................................................passed
+Then Check the browser is started...........................................passed
+Given User launched the login page..........................................passed
+When User logged into the application with username Akshata and password Female.passed
+Then Home page is not displayed.............................................passed
+And Home page is displayed "false"..........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Title of your feature" name="User is  not able login with the invalid credentials 6" time="0.001">
+        <system-out><![CDATA[Given Validate the browser..................................................passed
+When Browser is opened......................................................passed
+Then Check the browser is started...........................................passed
+Given User launched the login page..........................................passed
+When User logged into the application with username Divya and password Female.passed
+Then Home page is not displayed.............................................passed
+And Home page is displayed "false"..........................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
